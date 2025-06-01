@@ -59,7 +59,9 @@ nav a{
   font-size: 1rem;
   color: purple;
 }
-
+a{
+      text-decoration: none;
+}
 nav .button{
     padding: .1875rem .5rem;
   background-color: #9dc20b;
