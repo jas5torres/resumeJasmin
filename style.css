@@ -105,12 +105,12 @@ header .mobile{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 6%;
+    width: 100%;
     list-style: none;
   }
 
   header .mobile li {
-    padding: 0;
+    padding: 5;
   }
 }
 
