@@ -50,6 +50,7 @@ header nav ul{
 
 nav li{
   padding-left: 3.5rem;
+text-decoration: none;
 }
 
 nav a{
@@ -115,8 +116,50 @@ header .mobile{
   }
 }
 
+#about-me{
+      display: flex;
+      justify-content: space-between;
+      padding: 4rem 5%;
+      background-color: #f3f3f3;
+}
+
+.about{
+      flex: 1;
+      padding: 2rem;
+      margin: 0px 1.25rem;
+      background-color: white;
+}
+.about .image-container{
+      width: 90%;
+      height: 65%;
+      margin: 0 auto;
+}
+
+.about .content{
+      padding: 2.5rem 0;
+}
+
+
+.about h2 {
+  padding-bottom: .5rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.about h3 {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+@media only screen and (max-width: 895px) {
+  #about-me {
+    padding: 1rem;
+  }
 footer {
-  background-color: #9b9b9b;
+  background-color: #pink;
   padding: 1.5rem 2rem;
 }
 
