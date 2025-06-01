@@ -47,11 +47,13 @@ header .logo{
 
 header nav ul{
   display: flex;
+  list-style:none;
 }
 
 nav li{
   padding-left: 3.5rem;
 text-decoration: none;
+  list-style:none;
 }
 
 nav a{
@@ -62,17 +64,9 @@ nav a{
 }
 a{
       text-decoration: none;
-}
-nav .button{
-    padding: .1875rem .5rem;
-  background-color: #9dc20b;
-  line-height: 1.6;
-  color: white;
+
 }
 
-nav li:last-child{
-  display: none;
-}
 
 header .icon{
   width: 1rem;
@@ -112,6 +106,7 @@ header .mobile{
     justify-content: space-around;
     align-items: center;
     width: 6%;
+    list-style: none;
   }
 
   header .mobile li {
@@ -162,7 +157,7 @@ header .mobile{
     padding: 1rem;
   }
 footer {
-  background-color: #pink;
+  background-color: pink;
   padding: 1.5rem 2rem;
 }
 
