@@ -22,7 +22,11 @@
     top: 2.5625rem;
   }
 }
-
+header .icon {
+  width: 1rem;
+  padding-left: .75rem;
+  margin-right: 30px;
+}
 header{
   position: relative;
   z-index: 100;
@@ -107,7 +111,7 @@ header .mobile{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 6%;
   }
 
   header .mobile li {
